@@ -5,17 +5,25 @@ body {
     height: 100vh;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
+    margin: 0;
+    background-color: #000;
 }
 .message {
     text-align: center;
     background-color: #fff;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 90%; 
+    width: 400px; 
 }
 .message h1 {
     color: #00b300;
     margin-bottom: 20px;
+    font-size: 24px; 
+}
+.message p {
+    font-size: 16px; 
 }
 .message button {
     margin-top: 20px;
@@ -29,4 +37,18 @@ body {
 }
 .message button:hover {
     background-color: #c4d400;
+}
+
+/* Estilos para pantallas de celular */
+@media (max-width: 600px) {
+    .message {
+        padding: 15px; 
+        font-size: 14px; 
+    }
+    .message h1 {
+        font-size: 20px; 
+    }
+    .message button {
+        font-size: 14px; 
+    }
 }
