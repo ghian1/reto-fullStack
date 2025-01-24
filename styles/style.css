@@ -34,8 +34,9 @@ body {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #00b300;
-    border-radius: 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
     font-size: 16px;
 }
 .subscribe-container button {
@@ -43,7 +44,7 @@ body {
     padding: 10px;
     background-color: #dffe00;
     border: none;
-    border-radius: 5px;
+    border-radius: 100px;
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
@@ -52,10 +53,15 @@ body {
 .subscribe-container button:hover {
     background-color: #c4d400;
 }
+.footer-container {
+    width: 100%;
+    text-align: center;
+}
+
 .footer {
-    margin-top: 20px;
     font-size: 12px;
     color: #777;
+    margin-top: 20px;
 }
 
 /* Estilos para pantallas de celular */
